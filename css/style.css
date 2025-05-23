@@ -46,11 +46,13 @@ nav a:hover {
 }
 
 main {
-    display: block;
     align-items: center;
     background-color:#F4D497;
     color: #121212;
-    margin: 20px 20px 20px 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
 
 }
 
